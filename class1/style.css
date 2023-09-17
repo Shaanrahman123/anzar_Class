@@ -1,0 +1,15 @@
+h1 {
+
+    background-color: red;
+    text-align: center;
+    font-size: 70px;
+    color: white;
+}
+
+body {
+    background-color: aqua;
+}
+
+img {
+    max-width: 200px;
+}
