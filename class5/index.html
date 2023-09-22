@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class 5</title>
+
+
+    <style>
+        table,
+        td,
+        th {
+            border: 1px solid red;
+            /* to merge all the border inside the table  */
+            /* border-collapse: collapse; */
+
+            /* to give space between two borders we use border-spacing  */
+            /* border-spacing: 20px; */
+        }
+
+        table {
+            /* width: 100%; */
+            text-align: center;
+        }
+
+        td,
+        th {
+            /* to give space around our content we use padding  */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+
+        }
+
+
+        /* anchor tag design  */
+
+        a {
+            background-color: red;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: 700;
+            text-transform: uppercase;
+            border-radius: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center;">tables in html</h1>
+
+
+    <!-- to create a table we have to fistly write table tag  -->
+
+    <!-- in table we add data row wise, so for every row , we have to write tr tag -->
+
+    <!-- and for heading we use th tag  -->
+    <!-- and for data we use td tags -->
+
+    <table>
+        <tr>
+            <th colspan="2">Name</th>
+
+            <th>country</th>
+        </tr>
+        <tr>
+            <td>Anzar </td>
+            <td rowspan="2">Rahman</td>
+            <td>India</td>
+        </tr>
+        <tr>
+            <td>Shaan</td>
+
+            <td>India</td>
+        </tr>
+        <tr>
+            <td>Asif</td>
+            <td>Ahmad</td>
+            <td>India</td>
+        </tr>
+    </table>
+
+
+    <H1 style="text-align: center;">LIST IN HTML </H1>
+
+    <!-- in html there are three types of list  -->
+
+    <!-- 1. unordered list
+    2. ordered List
+    3. description list -->
+
+
+    <!-- 1. unordered list  -->
+
+    <ul>
+        <li>tamatar</li>
+        <li>adrak</li>
+        <li>nimbu</li>
+        <li>aalu</li>
+        <li>pyaaz</li>
+    </ul>
+
+
+    <!-- list-style-type : square
+    list-style-type : circle
+    list-style-type : disc  
+    list-style-type : none -->
+
+
+
+    <ul style="list-style-type: square;">
+        <li><a href="">tamatar</a></li>
+        <li>adrak</li>
+        <li>nimbu</li>
+        <li>aalu</li>
+        <li>pyaaz</li>
+    </ul>
+
+
+    <!-- ordered list  -->
+
+    <ol>
+        <li>Tomato</li>
+        <li>Ginger</li>
+        <li>Lemon</li>
+        <li>Potato</li>
+        <li>Onion</li>
+    </ol>
+
+
+    <!-- type="1"
+    type="a"
+    type="A"
+    type="i"
+    type="I" -->
+
+    <ol type="I">
+        <li>Tomato</li>
+        <li>Ginger</li>
+        <li>Lemon</li>
+        <li>Potato</li>
+        <li>Onion</li>
+    </ol>
+
+
+    <!-- description list -->
+
+    <dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+    </dl>
+
+
+
+
+
+
+    <!-- nested unordered list  -->
+
+
+    <ul style="list-style-type: square;">
+        <li>Breakfast
+            <ul style="list-style-type: square;">
+                <li>chai</li>
+                <li>coffee</li>
+                <li>biscuit</li>
+            </ul>
+        </li>
+        <li>Lunch
+            <ul>
+                <li>Biryani</li>
+                <li>Salad</li>
+                <li>Cold Drink</li>
+            </ul>
+        </li>
+        <li>Dinner
+            <ul>
+                <li>Bade ka Qorma</li>
+                <li>Tandoori Roti</li>
+                <li>cold Drink</li>
+                <li>Chai</li>
+            </ul>
+        </li>
+    </ul>
+
+
+
+
+    <!-- block and inline  -->
+
+
+    <!-- block : -->
+
+    <!-- A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and
+    after the element.
+    
+    A block-level element always takes up the full width available
+
+    Two commonly used block elements are: <p> and
+    <div>. -->
+
+
+
+    <!-- some block level element  -->
+
+    <p style="background-color: red;">this is some text</p>
+    <p>this is some other text</p>
+
+    <h2 style="background-color: red;">this is some text</h2>
+
+
+    <address></address>
+    <div></div>
+    <p></p>
+    <h1></h1>
+    <h2></h2>
+    <h3></h3>
+    <h4></h4>
+    <h5></h5>
+    <h6></h6>
+    <ul></ul>
+    <ol></ol>
+    <li></li>
+    <dt></dt>
+    <dl></dl>
+    <video></video>
+    <main></main>
+    <hr>
+
+
+    <!-- some inline level emement  -->
+
+    <span style="background-color: red;">this is some text</span>
+    <span>this is some other text</span>
+
+    <a href="">home</a>
+    <a href="">about</a>
+    <a href="">contact</a>
+    <a href="">login</a>
+
+
+
+    <a href=""></a>
+    <span></span>
+    <img src="" alt="">
+    <input type="text">
+    <strong></strong>
+    <sup></sup>
+    <sub></sub>
+    <label for=""></label>
+    <i></i>
+    <em></em>
+
+
+
+</body>
+
+</html>
