@@ -1,0 +1,55 @@
+.my-btn {
+    text-decoration: none;
+    padding-top: 7px;
+    padding-right: 16px;
+    padding-bottom: 7px;
+    padding-left: 16px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.button-one {
+    background-color: red;
+}
+
+.button-two {
+    background-color: blue;
+}
+
+.button-three {
+    background-color: yellow;
+}
+
+.button-four {
+    background-color: purple;
+}
+
+.button-five {
+    background-color: green;
+}
+
+
+#galgotia {
+    text-decoration: none;
+    padding-top: 7px;
+    padding-right: 16px;
+    padding-bottom: 7px;
+    padding-left: 16px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background-color: green;
+}
