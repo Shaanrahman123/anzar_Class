@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* this is our header design  */
+
+header {
+    background-color: #666;
+    padding: 30px;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+
+/* this is our header design  */
+
+nav {
+    float: left;
+    width: 30%;
+    height: 437px;
+    background-color: #ccc;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li a {
+    display: block;
+    background-color: #666;
+    padding: 10px 22px;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.content {
+    height: 437px;
+    float: left;
+    width: 70%;
+    padding: 20px;
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+footer {
+    background-color: #777;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
