@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+.external {
+    color: purple;
+    background-color: aqua;
+    padding: 10px 20px;
+    border: 2px dotted black;
+}
+
+
+
+
+
+
+/* stying using id selector  */
+
+#style_using_id {
+    color: red;
+    font-size: 30px;
+}
+
+/* styled using class selector  */
+
+.style_using_class {
+    color: purple;
+    font-size: 30px;
+}
+
+
+/* styled using element selector  */
+
+h3 {
+    color: blue;
+    font-size: 40px;
+}
+
+
+/* grouping selextor example  */
+
+/* h4 {
+    color: yellow;
+
+}
+h5 {
+    color: yellow;
+}
+h6 {
+    color: yellow;
+} */
+
+h4,
+h5,
+h6 {
+    color: yellow;
+}
