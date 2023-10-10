@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.box {
+    height: 300px;
+    width: 50%;
+    background-color: red;
+    /* border-radius: 50px; */
+
+}
+
+
+/* 
+inherit in width inherit the properties of their parent. so in this case width of h1 will be 50%. because the parant (.box) width is 50%  */
+.inherit {
+    width: inherit;
+    text-align: center;
+}
+
+
+
+
+
+/* outline design in css  */
+
+
+.outline_design {
+    height: 300px;
+    width: 300px;
+    margin: 100px auto;
+    background-color: red;
+
+
+    /* outline design */
+    outline-width: 5px;
+    /* outline-style: solid;
+    outline-color: blue;
+    outline-offset: 15px; */
+
+    /* shorthand for outline  */
+
+    outline: 2px double red;
+    outline-offset: 10px;
+
+}
+
+
+
+
+
+/* text in css  */
+
+
+.text-design {
+    width: 100%;
+    background-color: pink;
+    height: 200px;
+}
+
+.text-design h2 {
+    color: white;
+    padding: 0px 20px;
+    /* text-align: center; */
+    /* text-align: left; */
+    /* text-align: right; */
+    /* text-align: justify; */
+
+
+    /* text-align-last: left; */
+    /* text-align-last: right; */
+    /* text-align-last: center; */
+
+    /* direction: ltr; */
+    /* direction: rtl; */
+
+
+    margin-top: 10px;
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+
+
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+    /* text-transform: capitalize; */
+
+
+
+    /* text-indent: 100px; */
+    /* text-align: justify; */
+    /* letter-spacing: 2px; */
+    /* word-spacing: 10px; */
+    /* line-height: 50px; */
+
+
+
+    /* overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; */
+
+
+
+    /* first value is for move left and right  */
+    /* second value is for move top and bottm  */
+    /* third value is for blur  */
+
+    text-shadow: 1px 2px 5px black, 2px 4px 5px red, 3px 6px 5px purple;
+
+}

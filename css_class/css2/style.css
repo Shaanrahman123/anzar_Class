@@ -1,0 +1,241 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* colors in csss desgin  */
+
+
+/* .box {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+
+.box1 {
+    background-color: #1c002c;
+}
+
+.box2 {
+    background-color: olive;
+}
+
+.box3 {
+    background-color: beige;
+}
+
+.box4 {
+    background-color: magenta;
+}
+
+.box5 {
+    background-color: tomato;
+}
+
+.box6 {
+    background-color: palegreen;
+}
+
+.box7 {
+    background-color: green;
+}
+
+.box8 {
+    background-color: pink;
+}
+
+.box9 {
+    background-color: darkseagreen;
+}
+
+.box10 {
+    background-color: black;
+} */
+
+
+
+
+
+/* background in csss design  */
+
+.container {
+    /* height: 500px; */
+    width: 100%;
+
+
+
+}
+
+body {
+    /* background-color: greenyellow;
+    background-image: url("https://i.pinimg.com/236x/8d/95/75/8d95750a3d78b05540db9d0355045bea.jpg");
+    background-repeat: no-repeat;
+    background-position: top right; */
+
+    /* background: greenyellow url("https://i.pinimg.com/236x/8d/95/75/8d95750a3d78b05540db9d0355045bea.jpg") no-repeat top right;
+    background-attachment: fixed; */
+}
+
+
+
+
+/* borders in css  */
+
+
+.solid {
+    background-color: rgb(55, 55, 243);
+    margin: 10px;
+    padding: 10px;
+    color: white;
+
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+
+
+.dotted {
+    background-color: rgb(55, 55, 243);
+    margin: 10px;
+    padding: 10px;
+    color: white;
+
+    border-width: 5px;
+    border-style: dotted;
+    border-color: black;
+}
+
+.dashed {
+    background-color: rgb(55, 55, 243);
+    margin: 10px;
+    padding: 10px;
+    color: white;
+
+    border-width: 5px;
+    border-style: dashed;
+    border-color: black;
+}
+
+.double {
+    background-color: rgb(55, 55, 243);
+    margin: 10px;
+    padding: 10px;
+    color: white;
+
+    border-width: 5px;
+    border-style: double;
+    border-color: black;
+}
+
+.inset {
+    background-color: rgb(55, 55, 243);
+    margin: 10px;
+    padding: 10px;
+    color: white;
+
+    border-width: 20px;
+    border-style: inset;
+    border-color: black;
+}
+
+.groove {
+    background-color: rgb(55, 55, 243);
+    margin: 10px;
+    padding: 10px;
+    color: white;
+
+    border-width: 20px;
+    border-style: groove;
+    border-color: black;
+}
+
+.ridge {
+    background-color: rgb(55, 55, 243);
+    margin: 10px;
+    padding: 10px;
+    color: white;
+
+    border-width: 20px;
+    border-style: ridge;
+    border-color: black;
+}
+
+.outset {
+    background-color: rgb(55, 55, 243);
+    margin: 10px;
+    padding: 10px;
+    color: white;
+
+    border-width: 20px;
+    border-style: outset;
+    border-color: black;
+}
+
+.none {
+    background-color: rgb(55, 55, 243);
+    margin: 10px;
+    padding: 10px;
+    color: white;
+
+    border-width: 20px;
+    border-style: none;
+    border-color: black;
+}
+
+.hidden {
+    background-color: rgb(55, 55, 243);
+    margin: 10px;
+    padding: 10px;
+    color: white;
+
+    border-width: 20px;
+    border-style: hidden;
+    border-color: black;
+}
+
+.mix {
+    background-color: rgb(55, 55, 243);
+    margin: 10px;
+    padding: 10px;
+    color: white;
+
+    border-width: 10px;
+    border-style: solid double;
+    border-color: black;
+}
+
+
+
+
+
+
+
+
+
+/* margin properties in css  */
+
+
+.margin-box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    /* margins properties  */
+
+    /* margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-left: 30px; */
+
+    /* margin: 20px 40px 40px 30px; */
+    margin: 20px auto;
+
+
+}
