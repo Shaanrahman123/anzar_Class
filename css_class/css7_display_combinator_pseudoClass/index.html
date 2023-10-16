@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- inline / inline-block / block  -->
+
+    <!-- <span>
+        <h1>Lorem ipsum dolor sit <span class="first">amet consectetur</span> adipisicing elit. Autem ducimus quod
+            minima illo soluta quia?</h1>
+        <br>
+        <h1>Lorem ipsum dolor sit <span class="second">amet consectetur</span> adipisicing elit. Autem ducimus quod
+            minima illo soluta quia?</h1>
+        <br>
+        <h1>Lorem ipsum dolor sit <span class="third">amet consectetur</span> adipisicing elit. Autem ducimus quod
+            minima illo soluta quia?</h1>
+    </span> -->
+
+
+
+    <!-- combinators in css  -->
+
+    <!-- descendant selector (space) -->
+
+
+    <!-- The descendant selector matches all elements that are descendants of a specified element.
+    
+    The following example selects all <p> elements inside
+    <div> elements: -->
+
+
+
+    <!-- <div class="descendant">
+        <p>this is some text</p>
+    </div> -->
+
+    <!-- div p {
+        color : red;
+    } -->
+    <!-- 
+    .descendant p {
+        color:red;
+    } -->
+
+
+
+    <!-- child selector (>) -->
+
+
+    <!-- <div class="child-selector">
+        <p>this is some text</p>
+        <div>
+            <p>this is nested paragraph</p>
+        </div>
+        <p>this is bottom para</p>
+    </div>
+
+
+    .child-selector>p {
+    color: orange;
+    } -->
+
+    <!-- child selector (> ) select only the direct child of the element  -->
+
+
+
+
+
+
+    <!-- adjacent sibling selector (+) -->
+
+    <!-- <div class="adjacent">
+        <p>this is some text</p>
+        <p>this is some text</p>
+        <p>this is some text</p>
+    </div>
+    <p>this para is outside div</p>
+    <p>this is also outside div</p>
+
+    .adjacent+p {
+    color: red;
+    } -->
+
+    <!-- ADJACENT SIBLING SELECTOR SELECT JUST AFTER THE ELEMENT IF NOT FOUND THEN IT WILL DO NOTHING  -->
+
+
+
+
+    <!-- general sibling selector (~) -->
+
+
+
+    <!-- The general sibling selector selects all elements that are next siblings of a specified element.
+    
+    The following example selects all <p> elements that are next siblings of
+    <div> elements: -->
+
+
+    <!-- 
+    <div class="general">
+        <p>this is some text</p>
+        <p>this is some text</p>
+        <p>this is some text</p>
+    </div>
+    <h2>this is heading</h2>
+    <p>this is outside div</p>
+    <p>this is outside div</p>
+
+
+
+    .general~p {
+    color: red;
+    } -->
+
+
+
+
+
+
+    <!-- pseudo Class Selector in css  -->
+
+    <!-- :hover
+    :visited
+    :active
+    :first-child
+    :nth-child -->
+
+
+    <!-- <a class="button" href="">
+        link
+    </a> -->
+
+
+
+
+    <!-- .button {
+    color: white;
+    background-color: red;
+    padding: 10px 22px;
+    text-decoration: none;
+    
+    }
+    
+    .button:hover {
+    background-color: tomato;
+    }
+    
+    .button:active {
+    background-color: green;
+    }
+    
+    .button:visited {
+    background-color: purple;
+    } -->
+
+
+
+
+    <!-- opacity example  -->
+
+
+
+    <img class="image" src="https://www.w3schools.com/css/img_forest.jpg" alt="">
+
+
+    <h1 class="text">its color will change when you enter your mouse over it</h1>
+
+</body>
+
+</html>
