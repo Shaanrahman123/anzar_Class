@@ -1,0 +1,116 @@
+/* dropdown design  */
+
+
+/* .dropdown {
+    position: relative;
+    display: inline;
+    margin-left: 500px;
+}
+
+.dropdown-button {
+    padding: 15px 24px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    background-color: tomato;
+}
+
+
+.dropdown-content {
+    position: absolute;
+    left: 0;
+    background-color: #ddd;
+    min-width: 270px;
+    display: none;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 15px 24px;
+    color: #555;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 1px solid #888;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* bofore example  */
+
+.before-eg {
+    position: relative;
+    display: inline-block;
+}
+
+.before-eg::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: orange;
+    bottom: -5px;
+    left: 0;
+}
+
+
+.before-eg::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: orange;
+    bottom: -5px;
+    right: 0;
+}
+
+
+
+/* selection example  */
+
+::selection {
+    background-color: black;
+    color: white;
+}
+
+
+
+/* marker example  */
+
+
+::marker {
+    color: orange;
+}
+
+
+
+
+.firstline-eg::first-line {
+    color: orange;
+}
+
+.firstline-eg::first-letter {
+    color: red;
+}
