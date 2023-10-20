@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: palevioletred;
+}
+
+a[target] {
+    color: red;
+}
+
+
+img[alt] {
+    width: 200px;
+    height: 200px;
+}
+
+
+a[target="_blank"] {
+    color: green;
+}
+
+
+[title~="taj"] {
+    width: 200px;
+    height: 200px;
+    border: 10px solid yellow;
+}
+
+
+
+
+
+
+
+/* form design  */
+
+.our-form {
+    background-color: purple;
+    padding: 22px 15px;
+    width: 450px;
+    margin: 0px auto;
+    border-radius: 10px;
+}
+
+input,
+select {
+    display: block;
+    width: 100%;
+    padding: 14px 5px;
+    margin: 7px 0px;
+    border-radius: 5px;
+    border: none;
+}
+
+.our-form label {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+
+input[type="submit"] {
+    background-color: purple;
+    border: 2px solid white;
+    color: white;
+    margin-top: 20px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: white;
+    color: purple;
+}
+
+
+
+
+
+
+/* form design  */
