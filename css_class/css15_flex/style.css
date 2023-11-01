@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* this is main parent container inside this there are 3 div. and if we want to move that div left and right or center or change the direction to row wise or column wise then we have to set the display property to flex. and then only we can use more properties like justify content , flex direction, or any flex property */
+
+/* .flex-container {
+    height: 100vh;
+    background-color: olivedrab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px;
+    flex-direction: row;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    flex: 2;
+    height: 200px;
+    width: 100%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container:nth-child(2) {
+    flex: 8;
+}
+
+
+@media (max-width:600px) {
+    .flex-container {
+        flex-direction: column;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+/* navbar design in css  */
+
+
+
+/* top header desaign  */
+
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.mail,
+.phone,
+.address {
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.mail div i,
+.phone div i,
+.address div i {
+    color: orange;
+}
+
+
+/* bottom header design  */
+
+
+
+.bottom-header {
+    background-image: linear-gradient(to bottom, black, gray);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+nav ul li {
+    list-style-type: none;
+    position: relative;
+}
+
+nav ul li::before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    background-color: orange;
+    height: 3px;
+    bottom: -7px;
+    transition: all 0.5s;
+}
+
+nav ul li:hover::before {
+    width: 100%;
+}
+
+
+nav ul li a {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+.header-button a {
+    background-color: orange;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 14px 22px;
+    border-radius: 5px;
+}
