@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #091E3E;
+    display: grid;
+    grid-template-columns: 30% 25% 25% 25%;
+    padding: 0px 60px;
+}
+
+.footer-about {
+    background-color: #0d9f3e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0px;
+    gap: 25px;
+}
+
+.footer-about p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-about form input {
+    padding: 20px 16px;
+    color: #6B6A75;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+}
+
+.footer-about form button {
+    padding: 20px 16px;
+    text-wrap: nowrap;
+    color: #fff;
+    background-color: #091E3E;
+    border-color: #091E3E;
+    font-size: 1.1rem;
+}
+
+.footer-about form {
+    display: flex;
+
+}
+
+
+
+.footer-get-in-touch {
+    padding: 48px;
+}
+
+.footer-get-in-touch h2 {
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 24px;
+    padding-bottom: 16px;
+    position: relative;
+}
+
+.footer-get-in-touch h2::before {
+    position: absolute;
+    content: "";
+    width: 90px;
+    height: 3px;
+    background-color: #0d9f3e;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-get-in-touch h2::after {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 3px;
+    background-color: #fff;
+    bottom: 0;
+    left: 0;
+    animation: moves 2s linear infinite alternate;
+}
+
+
+@keyframes moves {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: 86px;
+    }
+}
+
+
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-links .address,
+.footer-links .mail,
+.footer-links .call {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.footer-links i {
+    color: #0d9f3e;
+}
